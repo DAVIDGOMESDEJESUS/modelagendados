@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="FK_empregado_Possui_Dependentes" directorySegmentName="seg_0" id="38742457-7D89-83FB-D3BC-16468E212916">
+<createdBy>Aluno</createdBy>
+<createdTime>2022-04-19 23:38:46 UTC</createdTime>
+<ownerDesignName>exercicio2</ownerDesignName>
+<engineerTo>
+<item key="CA4C8E30-CEC4-F869-8215-6BA39B1C3FA6" value="true"/>
+</engineerTo>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>850B8E5D-F8D9-50E3-7B43-EB9FBABDD212</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>E486E396-5163-E682-B168-70D0A9567C36</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

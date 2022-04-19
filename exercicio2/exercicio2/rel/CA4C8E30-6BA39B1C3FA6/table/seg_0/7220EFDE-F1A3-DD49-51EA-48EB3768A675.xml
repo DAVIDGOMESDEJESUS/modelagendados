@@ -1,0 +1,80 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="7220EFDE-F1A3-DD49-51EA-48EB3768A675" name="dependentes">
+<createdBy>Aluno</createdBy>
+<createdTime>2022-04-19 23:41:38 UTC</createdTime>
+<generatorID>E486E396-5163-E682-B168-70D0A9567C36</generatorID>
+<ownerDesignName>exercicio2</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="nome_dependentes" id="DBF8649B-8958-21C2-BFED-4C3AD5C489EC">
+<createdBy>Aluno</createdBy>
+<createdTime>2022-04-19 23:41:38 UTC</createdTime>
+<generatorID>A6893EFB-BD31-9858-839C-F4A845BF846F</generatorID>
+<ownerDesignName>exercicio2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="sexo" id="A1135015-0380-1C25-51BC-5F3951FC806F">
+<createdBy>Aluno</createdBy>
+<createdTime>2022-04-19 23:41:38 UTC</createdTime>
+<generatorID>025F96DC-29CA-460C-DCC5-260D774DC831</generatorID>
+<ownerDesignName>exercicio2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="data_nascimento" id="F7449588-8DFB-60B9-C65E-50F05D8DDD5A">
+<createdBy>Aluno</createdBy>
+<createdTime>2022-04-19 23:41:38 UTC</createdTime>
+<generatorID>E07AF607-A5CD-85B3-81B4-11FB6E0C228D</generatorID>
+<ownerDesignName>exercicio2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="parentesco" id="4979E5E6-C9CB-02E0-C8AD-0C6D25C90ABC">
+<createdBy>Aluno</createdBy>
+<createdTime>2022-04-19 23:41:38 UTC</createdTime>
+<generatorID>667CFDBD-0FE6-6CC9-2D06-003C2833F757</generatorID>
+<ownerDesignName>exercicio2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="empregado_empregado_ID" id="8024832C-69B5-F9F3-09BA-E5ACD4182DB9">
+<createdBy>Aluno</createdBy>
+<createdTime>2022-04-19 23:41:38 UTC</createdTime>
+<ownerDesignName>exercicio2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="249747E6-E5D0-C363-6952-FC3F3B7CE592" referredColumn="B9C3611B-8847-517B-FF30-AAE621857B1C"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="06B95D26-C244-AE20-B8F3-356E70E2E7D1" name="dependentes_empregado_FK">
+<createdBy>Aluno</createdBy>
+<createdTime>2022-04-19 23:41:38 UTC</createdTime>
+<generatorID>38742457-7D89-83FB-D3BC-16468E212916</generatorID>
+<ownerDesignName>exercicio2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8024832C-69B5-F9F3-09BA-E5ACD4182DB9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
