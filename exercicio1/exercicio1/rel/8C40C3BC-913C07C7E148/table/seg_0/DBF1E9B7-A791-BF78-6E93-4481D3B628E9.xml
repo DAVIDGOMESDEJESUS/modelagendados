@@ -1,0 +1,63 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="DBF1E9B7-A791-BF78-6E93-4481D3B628E9" name="aeroporto">
+<createdBy>Aluno</createdBy>
+<createdTime>2022-04-19 23:23:42 UTC</createdTime>
+<generatorID>EC4CF4AC-20E7-054B-E8C9-90FE01F91B6E</generatorID>
+<ownerDesignName>exercicio1</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="cod_aereo" id="225021BA-0419-6327-69FD-4C1252DF22E8">
+<createdBy>Aluno</createdBy>
+<createdTime>2022-04-19 23:23:42 UTC</createdTime>
+<generatorID>56F3FAD0-C5FD-140F-E5D2-EDAD349BE286</generatorID>
+<ownerDesignName>exercicio1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nome" id="D3D82689-D780-E64A-5A6A-97AAC95872C3">
+<createdBy>Aluno</createdBy>
+<createdTime>2022-04-19 23:23:42 UTC</createdTime>
+<generatorID>EA927CB8-9177-D68E-F030-6C58930EBBAC</generatorID>
+<ownerDesignName>exercicio1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cidade" id="93425137-D8D2-D3F1-8AE8-99E884D1FAFC">
+<createdBy>Aluno</createdBy>
+<createdTime>2022-04-19 23:23:42 UTC</createdTime>
+<generatorID>16323B03-D7C0-783F-776B-6508CAF800E6</generatorID>
+<ownerDesignName>exercicio1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="estado" id="ECA6FF8C-4467-6E1F-6750-561357EA7B5E">
+<createdBy>Aluno</createdBy>
+<createdTime>2022-04-19 23:23:42 UTC</createdTime>
+<generatorID>F72DC4D3-DA0B-7440-E154-92056F748F25</generatorID>
+<ownerDesignName>exercicio1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="2818DDA2-E779-68C0-3703-1D1DCE68D3DA" name="aeroporto_PK">
+<createdBy>Aluno</createdBy>
+<createdTime>2022-04-19 23:23:42 UTC</createdTime>
+<generatorID>29FED6CA-D2F0-A308-E32A-9537E8CB734A</generatorID>
+<ownerDesignName>exercicio1</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+</ind_PK_UK>
+</indexes>
+</Table>
