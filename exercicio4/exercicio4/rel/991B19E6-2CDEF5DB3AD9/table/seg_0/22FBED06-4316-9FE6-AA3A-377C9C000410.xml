@@ -1,0 +1,42 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="22FBED06-4316-9FE6-AA3A-377C9C000410" name="banco">
+<createdBy>Aluno</createdBy>
+<createdTime>2022-04-20 00:11:23 UTC</createdTime>
+<generatorID>5E793696-F8EB-2C02-11A8-37184E58F742</generatorID>
+<ownerDesignName>exercicio4</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="nome" id="A5501B2A-5BEA-2134-0D60-C43BE95F61BE">
+<createdBy>Aluno</createdBy>
+<createdTime>2022-04-20 00:11:23 UTC</createdTime>
+<generatorID>84251266-7223-2EC1-70FC-514E02BE66DC</generatorID>
+<ownerDesignName>exercicio4</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="codigo" id="AC7A317B-FA56-D220-B5D8-40EA3FA5580E">
+<createdBy>Aluno</createdBy>
+<createdTime>2022-04-20 00:11:23 UTC</createdTime>
+<generatorID>2D9F2377-3040-77A1-9516-202A96BCA64D</generatorID>
+<ownerDesignName>exercicio4</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="endereço" id="3DBE835D-6337-E9B3-CE9F-4476AA02D0AE">
+<createdBy>Aluno</createdBy>
+<createdTime>2022-04-20 00:11:23 UTC</createdTime>
+<generatorID>0AB223C7-35D1-A5CC-08D4-2217C43D703C</generatorID>
+<ownerDesignName>exercicio4</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+</Table>

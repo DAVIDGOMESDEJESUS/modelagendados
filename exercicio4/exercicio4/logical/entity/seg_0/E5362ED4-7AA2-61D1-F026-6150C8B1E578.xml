@@ -1,0 +1,63 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="E5362ED4-7AA2-61D1-F026-6150C8B1E578" name="cliente">
+<createdBy>Aluno</createdBy>
+<createdTime>2022-04-19 23:57:51 UTC</createdTime>
+<ownerDesignName>exercicio4</ownerDesignName>
+<engineerTo>
+<item key="991B19E6-1FA0-C121-5F67-2CDEF5DB3AD9" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="nome" id="2FEE500C-1C47-9D4D-62AF-EDB7ADAB0F84">
+<createdBy>Aluno</createdBy>
+<createdTime>2022-04-20 00:01:47 UTC</createdTime>
+<ownerDesignName>exercicio4</ownerDesignName>
+<engineerTo>
+<item key="991B19E6-1FA0-C121-5F67-2CDEF5DB3AD9" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cpf" id="F38FC151-3861-E655-EEA0-4D6542784B6F">
+<createdBy>Aluno</createdBy>
+<createdTime>2022-04-20 00:02:10 UTC</createdTime>
+<ownerDesignName>exercicio4</ownerDesignName>
+<engineerTo>
+<item key="991B19E6-1FA0-C121-5F67-2CDEF5DB3AD9" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="endereço" id="6364E74C-511A-4595-3AEB-8CF369456CD3">
+<createdBy>Aluno</createdBy>
+<createdTime>2022-04-20 00:02:14 UTC</createdTime>
+<ownerDesignName>exercicio4</ownerDesignName>
+<engineerTo>
+<item key="991B19E6-1FA0-C121-5F67-2CDEF5DB3AD9" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="telefone" id="B308B887-415E-6B39-C417-0EA96981ABED">
+<createdBy>Aluno</createdBy>
+<createdTime>2022-04-20 00:02:19 UTC</createdTime>
+<ownerDesignName>exercicio4</ownerDesignName>
+<engineerTo>
+<item key="991B19E6-1FA0-C121-5F67-2CDEF5DB3AD9" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>

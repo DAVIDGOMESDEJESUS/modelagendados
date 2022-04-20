@@ -1,0 +1,52 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="96C29C2A-5C53-E607-8AE5-BB2207DAEF94" name="cliente">
+<createdBy>Aluno</createdBy>
+<createdTime>2022-04-20 00:11:23 UTC</createdTime>
+<generatorID>E5362ED4-7AA2-61D1-F026-6150C8B1E578</generatorID>
+<ownerDesignName>exercicio4</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="nome" id="FDF8F9DE-5399-F068-27A7-BF6C36D3D826">
+<createdBy>Aluno</createdBy>
+<createdTime>2022-04-20 00:11:23 UTC</createdTime>
+<generatorID>2FEE500C-1C47-9D4D-62AF-EDB7ADAB0F84</generatorID>
+<ownerDesignName>exercicio4</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cpf" id="E5E32700-33B4-E823-503E-E56E05A4E77B">
+<createdBy>Aluno</createdBy>
+<createdTime>2022-04-20 00:11:23 UTC</createdTime>
+<generatorID>F38FC151-3861-E655-EEA0-4D6542784B6F</generatorID>
+<ownerDesignName>exercicio4</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="endereço" id="CC02D3BE-0951-D925-8FC5-67DAA7287EA9">
+<createdBy>Aluno</createdBy>
+<createdTime>2022-04-20 00:11:23 UTC</createdTime>
+<generatorID>6364E74C-511A-4595-3AEB-8CF369456CD3</generatorID>
+<ownerDesignName>exercicio4</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="telefone" id="79AE9176-FD6A-55FA-67E0-DF61413A3BF1">
+<createdBy>Aluno</createdBy>
+<createdTime>2022-04-20 00:11:23 UTC</createdTime>
+<generatorID>B308B887-415E-6B39-C417-0EA96981ABED</generatorID>
+<ownerDesignName>exercicio4</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+</Table>

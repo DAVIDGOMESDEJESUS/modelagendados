@@ -1,0 +1,45 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="139025F2-2319-D221-05D9-B09B6BCAA1FA" name="agencia_bancaria">
+<createdBy>Aluno</createdBy>
+<createdTime>2022-04-20 00:11:23 UTC</createdTime>
+<generatorID>A2C9283A-9D15-1C06-5BBB-3FC0A30FC24B</generatorID>
+<ownerDesignName>exercicio4</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="numero_da_agencia" id="4915F5E7-5036-26FC-7A81-AECE1CD22639">
+<createdBy>Aluno</createdBy>
+<createdTime>2022-04-20 00:11:23 UTC</createdTime>
+<generatorID>EE2BA0EF-DC6C-BEB5-748D-52D884760DDD</generatorID>
+<ownerDesignName>exercicio4</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="endereço" id="27C3C8D9-8BAF-CAF5-8B27-03EE5A6633F7">
+<createdBy>Aluno</createdBy>
+<createdTime>2022-04-20 00:11:23 UTC</createdTime>
+<generatorID>D1EDF353-D857-2BF3-441A-1BCBCF7C4048</generatorID>
+<ownerDesignName>exercicio4</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="6CF3CB1A-B634-4B8C-F895-026DE712CEFB" name="agencia_bancaria_PK">
+<createdBy>Aluno</createdBy>
+<createdTime>2022-04-20 00:11:23 UTC</createdTime>
+<generatorID>F6F8153A-6DC2-3D53-2E8F-F788B63C980D</generatorID>
+<ownerDesignName>exercicio4</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4915F5E7-5036-26FC-7A81-AECE1CD22639"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
