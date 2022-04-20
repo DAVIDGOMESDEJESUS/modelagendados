@@ -1,0 +1,43 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="B016EC67-F403-2EB5-3173-A50471127A15" name="disciplina">
+<createdBy>Aluno</createdBy>
+<createdTime>2022-04-20 00:29:26 UTC</createdTime>
+<ownerDesignName>exercicio5</ownerDesignName>
+<engineerTo>
+<item key="D2594872-0372-71BB-B541-9AB8261DCB4D" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="descrição" id="2CAE73DD-9F71-2823-4FBB-2FACD36AE45A">
+<createdBy>Aluno</createdBy>
+<createdTime>2022-04-20 00:31:39 UTC</createdTime>
+<ownerDesignName>exercicio5</ownerDesignName>
+<engineerTo>
+<item key="D2594872-0372-71BB-B541-9AB8261DCB4D" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ementa" id="7CF2608A-9FF5-6525-8480-2806AF5E052D">
+<createdBy>Aluno</createdBy>
+<createdTime>2022-04-20 00:32:04 UTC</createdTime>
+<ownerDesignName>exercicio5</ownerDesignName>
+<engineerTo>
+<item key="D2594872-0372-71BB-B541-9AB8261DCB4D" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>

@@ -1,0 +1,59 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B466A3D2-505B-3DF3-3062-CC01FD291AC5" name="disciplina">
+<createdBy>Aluno</createdBy>
+<createdTime>2022-04-20 00:38:42 UTC</createdTime>
+<generatorID>B016EC67-F403-2EB5-3173-A50471127A15</generatorID>
+<ownerDesignName>exercicio5</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="descrição" id="6BCFD8BC-EFA8-F6F5-32B6-BC2C4C1F90AF">
+<createdBy>Aluno</createdBy>
+<createdTime>2022-04-20 00:38:42 UTC</createdTime>
+<generatorID>2CAE73DD-9F71-2823-4FBB-2FACD36AE45A</generatorID>
+<ownerDesignName>exercicio5</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ementa" id="EDC24CC7-7A52-1A98-AA66-42F77D01964B">
+<createdBy>Aluno</createdBy>
+<createdTime>2022-04-20 00:38:42 UTC</createdTime>
+<generatorID>7CF2608A-9FF5-6525-8480-2806AF5E052D</generatorID>
+<ownerDesignName>exercicio5</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="disciplina_ID" id="7F1E2428-247F-6E61-BB9F-53CF7E31CF4D">
+<createdBy>Aluno</createdBy>
+<createdTime>2022-04-20 00:38:42 UTC</createdTime>
+<ownerDesignName>exercicio5</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isSurrogateColumn>true</isSurrogateColumn>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="B5479C78-8618-E78F-88E4-959C63EC0CE9" name="disciplina_PK">
+<createdBy>Aluno</createdBy>
+<createdTime>2022-04-20 00:38:42 UTC</createdTime>
+<ownerDesignName>exercicio5</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<indexColumnUsage>
+<colUsage columnID="7F1E2428-247F-6E61-BB9F-53CF7E31CF4D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

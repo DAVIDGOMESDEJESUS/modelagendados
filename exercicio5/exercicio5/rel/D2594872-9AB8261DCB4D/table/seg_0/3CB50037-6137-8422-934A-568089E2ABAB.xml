@@ -1,0 +1,67 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="3CB50037-6137-8422-934A-568089E2ABAB" name="aluno">
+<createdBy>Aluno</createdBy>
+<createdTime>2022-04-20 00:38:42 UTC</createdTime>
+<generatorID>FD080B15-1360-1726-82A5-B7F45783D691</generatorID>
+<ownerDesignName>exercicio5</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="nome" id="C83A9AF9-C381-81CF-0B8C-BD8075708618">
+<createdBy>Aluno</createdBy>
+<createdTime>2022-04-20 00:38:42 UTC</createdTime>
+<generatorID>1A171C2D-9F67-EEF7-5487-8D0A31C608C4</generatorID>
+<ownerDesignName>exercicio5</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="data_de_nascimento" id="3F88C678-C37F-3A66-FC72-CC8EAC4C1F8B">
+<createdBy>Aluno</createdBy>
+<createdTime>2022-04-20 00:38:42 UTC</createdTime>
+<generatorID>D9D35CBC-D61B-0E8A-380D-AC2067165BE1</generatorID>
+<ownerDesignName>exercicio5</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="endereço" id="6F7EE515-7C83-E447-463F-262415BC6EF5">
+<createdBy>Aluno</createdBy>
+<createdTime>2022-04-20 00:38:42 UTC</createdTime>
+<generatorID>A0EA82E0-FC03-64F1-1AF6-C10D5FBBF7E0</generatorID>
+<ownerDesignName>exercicio5</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="aluno_ID" id="053AF253-62CB-57CE-3DEA-7632351C869E">
+<createdBy>Aluno</createdBy>
+<createdTime>2022-04-20 00:38:42 UTC</createdTime>
+<ownerDesignName>exercicio5</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isSurrogateColumn>true</isSurrogateColumn>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="FC51F810-A67C-83BF-1353-96D3D82129BC" name="aluno_PK">
+<createdBy>Aluno</createdBy>
+<createdTime>2022-04-20 00:38:42 UTC</createdTime>
+<ownerDesignName>exercicio5</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<indexColumnUsage>
+<colUsage columnID="053AF253-62CB-57CE-3DEA-7632351C869E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

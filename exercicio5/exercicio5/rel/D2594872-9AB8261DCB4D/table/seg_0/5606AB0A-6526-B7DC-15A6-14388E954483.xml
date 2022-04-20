@@ -1,0 +1,84 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="5606AB0A-6526-B7DC-15A6-14388E954483" name="curso">
+<createdBy>Aluno</createdBy>
+<createdTime>2022-04-20 00:38:42 UTC</createdTime>
+<generatorID>DB79DBC9-3047-3D4C-E4D2-76EAAAC02CEE</generatorID>
+<ownerDesignName>exercicio5</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="descriçao" id="60EF9523-BB83-6F98-5CDE-2BD3A443724F">
+<createdBy>Aluno</createdBy>
+<createdTime>2022-04-20 00:38:42 UTC</createdTime>
+<generatorID>4CDB1D63-C334-3F76-5DE7-8DB0F8779CEF</generatorID>
+<ownerDesignName>exercicio5</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="portaria" id="048702F0-F0D9-869F-0D53-935AEBCE9467">
+<createdBy>Aluno</createdBy>
+<createdTime>2022-04-20 00:38:42 UTC</createdTime>
+<generatorID>BCB62B1E-8457-4BCC-0ACC-E5BFF27CC33A</generatorID>
+<ownerDesignName>exercicio5</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="curso_ID" id="35D0B305-6FC7-3E1C-4186-B3FD6B16E9AC">
+<createdBy>Aluno</createdBy>
+<createdTime>2022-04-20 00:38:42 UTC</createdTime>
+<ownerDesignName>exercicio5</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isSurrogateColumn>true</isSurrogateColumn>
+</Column>
+<Column name="matricula_matricula_ID" id="5D9A7830-8750-10CB-8099-B8CD8DFC7F60">
+<createdBy>Aluno</createdBy>
+<createdTime>2022-04-20 00:38:42 UTC</createdTime>
+<ownerDesignName>exercicio5</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="61C178C7-3AFB-4C7F-A925-8AA47509F4D1" referredColumn="09A2F301-C4FB-74C3-7A71-B19DE3604B6D"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="0BB3DF2F-6B8E-45BD-5048-7AE1A4E6C7E0" name="curso_PK">
+<createdBy>Aluno</createdBy>
+<createdTime>2022-04-20 00:38:42 UTC</createdTime>
+<ownerDesignName>exercicio5</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<indexColumnUsage>
+<colUsage columnID="35D0B305-6FC7-3E1C-4186-B3FD6B16E9AC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="FE2C36F4-2669-1905-C83E-06D5C5CC84CF" name="curso_matricula_FK">
+<createdBy>Aluno</createdBy>
+<createdTime>2022-04-20 00:38:42 UTC</createdTime>
+<generatorID>24F2FBF3-99A1-2B50-CCC1-5DAC495FB93C</generatorID>
+<ownerDesignName>exercicio5</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5D9A7830-8750-10CB-8099-B8CD8DFC7F60"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
