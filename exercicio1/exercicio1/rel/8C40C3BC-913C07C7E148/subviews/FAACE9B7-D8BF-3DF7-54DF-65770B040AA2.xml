@@ -26,7 +26,7 @@
 <diagramViews>
 <DiagramView class="oracle.dbtools.crest.swingui.TVDiagramView" oid="14F21839-822B-ACE0-526C-88D19249F166" dpv_id="FB17D996-C718-336F-5936-E8804158B892" vid="54DD1227-3959-0983-0DD6-7C0002AF9659">
 <hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
-<bounds x="25" y="154" width="140" height="100"/>
+<bounds x="184" y="254" width="140" height="100"/>
 <rdiagramName>Logical</rdiagramName>
 <rdiagramID>FB17D996-C718-336F-5936-E8804158B892</rdiagramID>
 </DiagramView>

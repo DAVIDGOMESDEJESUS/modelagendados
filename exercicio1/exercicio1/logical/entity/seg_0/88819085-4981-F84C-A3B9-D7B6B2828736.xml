@@ -23,7 +23,8 @@
 <item key="8C40C3BC-631C-FD7F-93F8-913C07C7E148" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
-<use>0</use>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="empresa" id="A226405E-C21A-C443-D826-7229492BE41E">
@@ -45,7 +46,8 @@
 <item key="8C40C3BC-631C-FD7F-93F8-913C07C7E148" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
-<use>0</use>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
